@@ -4,27 +4,26 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
-<link href="https://fonts.googleapis.com/css?family=Underdog" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ruslan+Display" rel="stylesheet">
 <style>
 body, html {height: 100%}
-body,h1,h2,h3,h4,h5,h6 {font-family: 'Underdog', cursive;}
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Ruslan Display', cursive;}
 .menu {display: none}
 .bgimg {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("images/nevod.jpg");
-    min-height: 90%;
+    min-height: 100%;
 }
 </style>
+
 <body>
-<!-- Navbar (sit on top) -- >
-<div class="w3-top w3-hide-small">
-  <ul class="w3-navbar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
-    <li><a href="#">ДОМОЙ</a></li>
-    <li><a href="#menu">ПРОДУКЦИЯ</a></li>
-    <li><a href="#about">О НАС</a></li>
-<!--    <li><a href="#request">КОНТАКТЫ</a></li> -->
-  </ul>
+<div class="w3-top">
+  <div class="w3-bar w3-light-blue w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">ДОМОЙ</a>
+    <a href="#menu" class="w3-bar-item w3-button">НАША ПРОДУКЦИЯ</a>
+    <a href="#about" class="w3-bar-item w3-button">О КОМПАНИИ</a>
+  </div>
 </div>
 
 <!-- Header with image -->
@@ -39,7 +38,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: 'Underdog', cursive;}
   </div>
 
   <div class="w3-padding w3-display-bottommiddle">
-    <p><a href="#menu" class="w3-btn w3-xxlarge w3-padding">Посмотреть расценки на услуги</a></p>
+    <p><a href="#menu" class="w3-btn w3-xxlarge w3-padding">Цены на нашу продукцию</a></p>
   </div>
 </header>
 
@@ -79,7 +78,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: 'Underdog', cursive;}
       <hr>
     </div>
 
-
     <div id="Starter" class="w3-container menu w3-padding-32 w3-white">
       <h1><b>Диагностика</b> <span class="w3-right w3-tag w3-dark-grey w3-round">600рублей</span></h1>
       <p class="w3-text-grey">Выявление причины поломки</p>
@@ -90,7 +88,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: 'Underdog', cursive;}
 </div>
 
 <!-- About Container -->
-<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+<div class="w3-container w3-padding-64 w3-light-blue w3-grayscale w3-xlarge" id="about">
   <div class="w3-content">
     <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">О нашей компании</h1>
     <p>Наша компания работает бла бла бла хорошо, иногда очень хорошо качественно и заебато!</p>
@@ -114,22 +112,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: 'Underdog', cursive;}
 
   </div>
 </div>
-
-<!--
-<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge" id="request">
-  <div class="w3-content">
-    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Оставьте заявку на сайте</h1>
-    <p>Заполните форму ниже и мы с вами свяжемся</p>
-      <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Ваше имя" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Телефонный номер" required name="People"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Ваши коментарии" required name="Message"></p>
-      <p><button class="w3-btn-block w3-padding" type="submit">СОЗДАТЬ ЗАЯВКУ</button></p>
-    </form>
-  </div>
-</div>
--->
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
