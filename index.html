@@ -15,6 +15,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: 'Ruslan Display', cursive;}
     background-image: url("images/nevod.jpg");
     min-height: 100%;
 }
+#p01 {
+    font-family:courier;
+}
 </style>
 
 <body>
@@ -33,11 +36,11 @@ body,h1,h2,h3,h4,h5,h6 {font-family: 'Ruslan Display', cursive;}
   </div>
 
   <div class="w3-padding w3-display-topmiddle">
-    <span class="w3-text-white w3-hide-small" style="font-size:80px"><br>ДОБРЫЙ НЕВОД</span>
-    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>ДОБРЫЙ НЕВОД</b></span>
+    <span class="w3-text-white w3-hide-small" style="font-size:100px"><br>ДОБРЫЙ НЕВОД</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:80px"><b>ДОБРЫЙ НЕВОД</b></span>
   </div>
 
-  <div class="w3-padding w3-display-bottommiddle">
+  <div class="w3-padding w3-display-middle">
     <p><a href="#menu" class="w3-btn w3-xxlarge w3-padding">ЭКОЛОГИЧЕСКИ<br>ЧИСТАЯ РЫБА<br>В ЗЕЛЕНОГРАДЕ</a></p>
   </div>
 </header>
@@ -49,17 +52,18 @@ body,h1,h2,h3,h4,h5,h6 {font-family: 'Ruslan Display', cursive;}
     <h1 class="w3-center w3-jumbo" style="margin-bottom:64px"; style="font-size:40px">НАША ПРОДУКЦИЯ</h1>
     <div class="w3-row w3-center w3-border w3-border-dark-grey">
       <a href="javascript:void(0)" onclick="openMenu(event, 'IceFish');" id="myLink">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Свежемороженая рыба</div>
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red"; style="font-family:courier";> Свежемороженая рыба</div>
       </a>
       <a href="javascript:void(0)" onclick="openMenu(event, 'SaltFish');">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Слабосоленая рыба</div>
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red"; style="font-family:courier">Слабосоленая рыба</div>
       </a>
       <a href="javascript:void(0)" onclick="openMenu(event, 'DriedFish');">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Вяленая рыба</div>
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red"; style="font-family:courier">Вяленая рыба</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Caviar');">
-        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Икра и морепродукты</div>
+    <!--  <a href="javascript:void(0)" onclick="openMenu(event, 'Caviar');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red"; style="font-family:courier">Икра и морепродукты</div>
       </a>
+    -->
     </div>
 
     <div id="IceFish" class="w3-container menu w3-padding-32 w3-white">
@@ -91,20 +95,27 @@ body,h1,h2,h3,h4,h5,h6 {font-family: 'Ruslan Display', cursive;}
 <div class="w3-container w3-padding-64 w3-light-blue w3-grayscale w3-xlarge" id="about">
   <div class="w3-content">
     <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">О нашей компании</h1>
-    <p>Мы предлагаем Вам купить филе из рыбы, замороженной уже на корабле сразу после поиимки, без добавления для вкуса льда</p>
-    <p>Многие не едят рыбу потому, что её нужно долго разделыватью возиться, много отходов, много тратится времени и сил. Но здесь - Вам нужно только положить филе на сковородку или в духовку,и через 20 минут Вы получите лакомство, которое не найдете даже в лучших ресторанах.</p>
-    <p><strong>Быстро готовится, недорого и вкусно!</strong> Так вкусно что изнемогают уста человеческие выразить всю радость от вкушения Этого изумительного филе и стейков.</p>
-    <p>Итак мы гарантируем абсолютно точно:</p>
-    
-    <img src="/w3images/onepage_restaurant.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
-    <h1><b>Наши контакты</b></h1>
+    <p id="p01">Мы предлагаем Вам купить филе из рыбы, замороженной уже на корабле сразу после поиимки, без добавления для вкуса льда</p>
+    <p id="p01">Многие не едят рыбу потому, что её нужно долго разделыватью возиться, много отходов, много тратится времени и сил. Но здесь - Вам нужно только положить филе на сковородку или в духовку,и через 20 минут Вы получите лакомство, которое не найдете даже в лучших ресторанах.</p>
+    <p id="p01"><strong>Быстро готовится, недорого и вкусно!</strong> Так вкусно что изнемогают уста человеческие выразить всю радость от вкушения Этого изумительного филе и стейков.</p>
+    <p id="p01">Итак мы гарантируем абсолютно точно:</p>
+    <ul id="p01">
+      <li>что, в рыбных стейках нет химических добавок, льда и намороженной глазури</li>
+      <li>филе и стейки сделаны из дикой рыбы, выросшей в природе, а не переработаны из рыбы выросшей на стимуляторах роста и антибиотиках</li>
+      <li>наша рыба изготовлена на современном рыюоперерабатывающем заводе, который находится в зеленограде</li>
+      <li>Мы привозим заказ от 1кг. Мы находимся всегда рядом и доставим заказ в этот деньили в крайний случай на следующий.</li>
+    </ul>
 
-    <div class="w3-row">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Бесплатная доставка!</h1>
+
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px"><b>Наши контакты</b></h1>
+
+    <div class="w3-row" style="font-size:40px">
       <div class="w3-col s6">
-        <p>Телефон 8(929) 679-68-92</p>
+        <p>Телефон<br>8(929) 679-68-92</p>
       </div>
       <div class="w3-col s6">
-        <p>Телефон 8(929) 963-51-09</p>
+        <p>Телефон<br>8(929) 963-51-09</p>
       </div>
     </div>
   </div>
