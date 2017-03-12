@@ -11,3 +11,8 @@ PikePerchFillet филе судака
 
 CodFillets филе трески
 SalmonFillet филе горбуши
+
+FilletsOfPollock филе минтая
+
+SquidFillets филе кальмара
+YukolaChumSalmon юкола кеты
