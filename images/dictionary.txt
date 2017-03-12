@@ -1,0 +1,13 @@
+DriedSmelt Вяленая корюшка
+FilletOfSeaBass филеморскогоокуня
+FilletOfSaltSalmon филе горбуши слабосоленое
+
+FilletOfSirloin филе нерки
+PinkSalmonRoe	соломка горбуши
+CohoSalmonSteaks	стейки кижуча
+
+SteakSteaks стейки трески
+PikePerchFillet филе судака
+
+CodFillets филе трески
+SalmonFillet филе горбуши
